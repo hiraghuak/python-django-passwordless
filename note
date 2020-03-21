@@ -1,0 +1,32 @@
+As part of the hiring process, you need to complete the below given assignment.
+Assignment:
+Customise the Django User Table.
+Instructions:
+
+Modify the default Django user table and the custom user table should consist of the following fields.
+
+·      First Name
+·      Last Name
+·      Gender
+·      Email ID (Primary Key)
+·      Phone Number
+
+1.     There is no “password” field. The password to login will be an OTP either sent to their mail or Phone Number
+2.     Write Rest APIs for Signup, Login, Logout. Create HTML pages for the same.  Every time a user tries to Login, OTP is sent and he has to use that OTP to login.
+3.     Use the given sql dump (world.sql) to create the other models and to populate the data. This will give you the data to display once the user logs in.
+4.     On login, the dashboard with just one search bar and search button should be displayed. (refer google home page)
+5.     As user starts typing in the search bar, the system should autosuggest options available in the system. The user will search by city or country or language.
+6.     Once search button is pressed, list of relevant information should be displayed in the next screen.
+7.     Where ever the name of a country appears, it must be clickable and should redirect to a “Country details” page.
+8.     Logout redirects to login page
+
+Note:
+
+To know about data and its interrelation, look at the dump file
+Timeline:
+
+You should complete and send your assignment back by 6pm on 15 Dec 2019
+What you need to submit:
+1. Project files
+2. Step by step instruction to run the program. Please be elaborative
+3. Requirement file which can be used to install dependencies
